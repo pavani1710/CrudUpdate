@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-view-product',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class ViewProductComponent {
 
+  constructor(private activatedRoute: ActivatedRoute){
+
+  }
+
+  ngOnInit(): void{
+    
+  }
 }
