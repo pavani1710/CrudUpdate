@@ -1,0 +1,49 @@
+{
+    "products": [
+      {"id": 1,
+ 
+      "name": "Headphone 1",
+       
+      "category_id": 2,
+       
+      "description": "Product description goes here",
+       
+      "price": 100,
+       
+      "is_available": true,
+       
+      "rating": 4,
+       
+      "reviews": 120,
+       
+      "vendor_name": "Seller -1",
+       
+      "warranty": 2},
+
+      {
+        "id": 2,
+ 
+        "name": "Headphone 2",
+ 
+        "category_id": 3,
+ 
+        "description": "Product description goes here",
+        
+        "price": 40,
+        
+        "is_available": true,
+        
+        "rating": 3, "reviews": 30,
+        
+        "vendor_name": "Seller -2",
+        
+        "warranty": 1}
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
